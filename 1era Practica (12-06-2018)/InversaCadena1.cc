@@ -1,3 +1,8 @@
+/* Variables
+
+    @p = puntero que hace referencia a la cadena
+    @cadena = cadena de caracteres
+*/
 #include <iostream>
 #include <cstring>
 
@@ -5,7 +10,7 @@ using namespace std;
 
 int main() {
     char *p;
-    char cadena[999999];
+    char cadena[256];
     cout << "Escribe la cadena: ";
     cin.getline(cadena, sizeof(cadena));
     p = cadena;
